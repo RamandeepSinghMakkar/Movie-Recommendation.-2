@@ -2,7 +2,7 @@ import streamlit as st
 from processing import preprocess
 from processing.display import Main
 import mysql.connector
-
+import os
 # Setting the wide mode as default
 st.set_page_config(layout="wide")
 
